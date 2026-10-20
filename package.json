@@ -1,0 +1,33 @@
+{
+  "name": "a3-markdown",
+  "version": "0.1.0",
+  "description": "Turn a short problem description into a standard A3 problem-solving Markdown sheet.",
+  "homepage": "https://prodrank.app/lean-shopfloor-coach",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "a3-markdown": "./bin/a3-markdown.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "LICENSE",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test",
+    "smoke": "node --test test/smoke.test.js",
+    "a3": "node ./bin/a3-markdown.js"
+  },
+  "keywords": [
+    "a3",
+    "lean",
+    "markdown",
+    "cli",
+    "problem-solving",
+    "shopfloor"
+  ]
+}
